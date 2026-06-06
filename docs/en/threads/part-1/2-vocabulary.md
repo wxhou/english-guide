@@ -281,8 +281,8 @@ If you want to use AI across listening/speaking/reading/writing, see the “AI�
 ## Recommended Vocabulary Books
 
 - [![英语常用词疑难用法手册](https://img1.doubanio.com/lpic/s6207668.jpg)](https://book.douban.com/subject/5038844/)
-- [![17天搞定GRE单词](https://img3.doubanio.com/lpic/s5759730.jpg)](https://book.douban.com/subject/1803504/)
-- [![Merriam-Webster's Vocabulary Builder](https://img3.doubanio.com/lpic/s4339900.jpg)](https://book.douban.com/subject/4759840/)
+- [![17天搞定GRE单词](../../../assets/s5759730.jpg)](https://book.douban.com/subject/1803504/)
+- [![Merriam-Webster's Vocabulary Builder](../../../assets/s4339900.jpg)](https://book.douban.com/subject/4759840/)
 
 “Merriam-Webster’s Vocabulary Builder” is often recommended for people who already have a solid base (around 7,000 words), especially for TOEFL/GRE prep.
 

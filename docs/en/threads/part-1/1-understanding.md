@@ -22,7 +22,7 @@ If English makes you feel guilty, anxious, or stuck in procrastination, this cha
 
 Let’s start with a boring-but-true fact: **English is everywhere**. The language distribution of Wikipedia content gives you a pretty good hint:
 
-![WebsiteContentLanguages](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/WebsiteContentLanguages.svg/2000px-WebsiteContentLanguages.svg.png)
+![WebsiteContentLanguages](https://commons.wikimedia.org/wiki/Special:FilePath/WebsiteContentLanguages.svg)
 
 English shows up in almost every corner of life:
 

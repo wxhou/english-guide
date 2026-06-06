@@ -104,7 +104,7 @@ If you use tools to pre-extract unknown words from a document and learn them fir
 
 ## Reference Book
 
-[![英语阅读参考手册](https://img3.doubanio.com/lpic/s4241556.jpg)](https://book.douban.com/subject/4720475/)
+[![英语阅读参考手册](../../../assets/s4241556.jpg)](https://book.douban.com/subject/4720475/)
 
 ---
 

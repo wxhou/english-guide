@@ -204,8 +204,8 @@ Ronnie 老师有一篇关于记单词的视频，[YouTube 链接](https://www.yo
 ## 推荐的单词书
 
 - [![英语常用词疑难用法手册](https://img1.doubanio.com/lpic/s6207668.jpg)](https://book.douban.com/subject/5038844/)
-- [![17天搞定GRE单词](https://img3.doubanio.com/lpic/s5759730.jpg)](https://book.douban.com/subject/1803504/)
-- [![Merriam-Webster's Vocabulary Builder](https://img3.doubanio.com/lpic/s4339900.jpg)](https://book.douban.com/subject/4759840/)
+- [![17天搞定GRE单词](../../assets/s5759730.jpg)](https://book.douban.com/subject/1803504/)
+- [![Merriam-Webster's Vocabulary Builder](../../assets/s4339900.jpg)](https://book.douban.com/subject/4759840/)
 
   这本书适合具有一定词汇量基础的人（大约 7000），也是备考托福和 GRE 时被推荐较多的词法书，俗称韦氏小绿书。
   在很多人的印象里面，韦氏小绿书似乎就是一本用来记词根词缀的书，但这本书真正的价值并不在于此。
