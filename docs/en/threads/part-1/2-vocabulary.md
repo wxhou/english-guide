@@ -8,7 +8,7 @@ The good news: vocabulary has a very obvious tipping point. Once your vocabulary
 
 Here’s a classic distribution chart:
 
-![Vocabulary distribution (OEC)](../../../assets/OCE%20Artboard@2x.png)
+![Vocabulary distribution (OEC)](../../../assets/OCE Artboard@2x.png)
 
 > Original data: Oxford English Corpus (OEC). The author recreated the chart in Sketch.
 
@@ -280,7 +280,7 @@ If you want to use AI across listening/speaking/reading/writing, see the “AI�
 
 ## Recommended Vocabulary Books
 
-- [![英语常用词疑难用法手册](https://img1.doubanio.com/lpic/s6207668.jpg)](https://book.douban.com/subject/5038844/)
+- [![英语常用词疑难用法手册](../../../assets/s6207668.jpg)](https://book.douban.com/subject/5038844/)
 - [![17天搞定GRE单词](../../../assets/s5759730.jpg)](https://book.douban.com/subject/1803504/)
 - [![Merriam-Webster's Vocabulary Builder](../../../assets/s4339900.jpg)](https://book.douban.com/subject/4759840/)
 

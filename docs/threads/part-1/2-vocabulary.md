@@ -6,7 +6,7 @@
 得益于语境的帮助，你可以推断出大部分生词的意思，从而可以利用更优秀的原版英语学习材料让学英语如虎添翼，比如：经济学人，英文原著**。
 首先来看看一下英语单词的分布：
 
-![OCE Artboard@2x.png](../../assets/OCE%20Artboard@2x.png)
+![OCE Artboard@2x.png](../../assets/OCE Artboard@2x.png)
 
 > 原图片来源于牛津英文语料库（OEC），我用 sketch 对照着做了一份，sketch 文件在 repo 的 assets 文件夹内
 
@@ -203,7 +203,7 @@ Ronnie 老师有一篇关于记单词的视频，[YouTube 链接](https://www.yo
 
 ## 推荐的单词书
 
-- [![英语常用词疑难用法手册](https://img1.doubanio.com/lpic/s6207668.jpg)](https://book.douban.com/subject/5038844/)
+- [![英语常用词疑难用法手册](../../assets/s6207668.jpg)](https://book.douban.com/subject/5038844/)
 - [![17天搞定GRE单词](../../assets/s5759730.jpg)](https://book.douban.com/subject/1803504/)
 - [![Merriam-Webster's Vocabulary Builder](../../assets/s4339900.jpg)](https://book.douban.com/subject/4759840/)
 
