@@ -27,6 +27,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Enable Pages (build_type=workflow)
+        # 首次部署时仓库还没在 UI 切到 GitHub Actions；这里用 API 强制开启
+        # 后续运行会幂等（已开启则 no-op）
+        run: |
+          gh api \
+            --method PUT \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            /repos/${{ github.repository }}/pages \
+            -f build_type=workflow \
+            -f "source[branch]=master" \
+            -f "source[path]=/" \
+          || echo "Pages API enable failed (likely already enabled) - continuing"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
