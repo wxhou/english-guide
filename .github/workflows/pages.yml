@@ -1,0 +1,43 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+# 允许一次部署并发：新 push 取消旧的
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+# Actions 部署 Pages 需要的最低权限
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 避免 actions/configure-pages 在 PR 上失败：仅 deploy 在 main/master 触发即可
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # docs/ 目录里就是 docsify 站点：index.html、SUMMARY.md、threads/、assets/
+          # docsify 用 basePath 自动推断路径；项目页 URL https://wxhou.github.io/english-guide/
+          # 加载 docs/index.html 内部相对引用都从 docs/ 解析，所以直接传 docs/ 整体即可
+          path: docs
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

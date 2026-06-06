@@ -73,7 +73,10 @@
       const transformer = new markmap.Transformer();
       window.$docsify = {
         name: "English level-up tips",
-        repo: "https://github.com/byoungd/English-level-up-tips",
+        repo: "https://github.com/wxhou/english-guide",
+        // 项目页 URL：https://<user>.github.io/<repo>/
+        // 显式声明 basePath，避免 docsify 推断错误导致 .md 加载 404
+        basePath: "/english-guide/",
         loadSidebar: "SUMMARY.md",
         alias: {
           "/en/.*/SUMMARY.md": "/en/SUMMARY.md",
@@ -122,7 +125,7 @@
               let repo = (vm.config.repo || "").replace(/\.git$/, "");
               let url = repo
                 ? repo + "/blob/master/docs/" + vm.route.file
-                : "https://github.com/byoungd/English-level-up-tips/blob/master/docs/" +
+                : "https://github.com/wxhou/english-guide/blob/master/docs/" +
                   vm.route.file;
               let editHtml = "[:memo: EDIT DOCUMENT](" + url + ")\n";
               return (
