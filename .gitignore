@@ -20,3 +20,9 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+# 本地 Claude / OpenSpec / 测试配置（不上传）
+.claude/
+CLAUDE.md
+openspec/
+tests/
